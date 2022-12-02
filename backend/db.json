@@ -1,0 +1,18 @@
+{
+  "employee": [
+    {
+      "name": "Tausif Jawaid",
+      "email": "tausifjawaid6@gmail.com",
+      "phone": "+919131015472",
+      "active": true,
+      "id": 11
+    },
+    {
+      "name": "Puneet kumar",
+      "email": "puneetkumar@email.com",
+      "phone": "4535344",
+      "active": true,
+      "id": 12
+    }
+  ]
+}
