@@ -6,6 +6,7 @@ const fs = require('fs');
 const cors = require('cors')
 
 // express app
+// react js
 const app = express();
 app.use(express.json())
 app.use(cors())
