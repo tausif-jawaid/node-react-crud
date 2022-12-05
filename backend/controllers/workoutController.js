@@ -61,7 +61,7 @@ const createWorkout = async (req, res) => {
   });
 };
 
-// delete workout
+// delete single  workout
 const deleteWorkout = async (req, res) => {
   const empId = req.params.id;
   fetch("http://localhost:8000/employee/" + empId, {
