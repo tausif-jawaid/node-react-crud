@@ -11,15 +11,14 @@ const EmpDetail = () => {
         fetch("http://localhost:8001/api/workouts/" + empid).then((res) => {
             return res.json();
         }).then((resp) => {
-            if(resp.status ==200){
+          
                 empdatachange(resp);
-            }else{
-                alert('No Record Found')
-            }
+                
         }).catch((err) => {
             console.log(err.message);
         })
     }, []);
+
     return (
         <div>
             {/* <div className="row">

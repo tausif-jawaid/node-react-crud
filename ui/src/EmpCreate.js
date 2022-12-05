@@ -7,7 +7,7 @@ const EmpCreate = () => {
     const[name,namechange]=useState("");
     const[email,emailchange]=useState("");
     const[phone,phonechange]=useState("");
-    const[active,activechange]=useState(true);
+  
     const[validation,valchange]=useState(false);
 
 
@@ -15,7 +15,7 @@ const EmpCreate = () => {
 
     const handlesubmit=(e)=>{
       e.preventDefault();
-      const empdata={name,email,phone,active};
+      const empdata={name,email,phone};
 
       fetch("http://localhost:8001/api/workouts/",{
         method:"POST",
@@ -78,15 +78,10 @@ const EmpCreate = () => {
                                         </div>
                                     </div>
 
+                                   
+                                    
                                     <div className="col-lg-12">
-                                        <div className="form-check">
-                                        <input checked={active} onChange={e=>activechange(e.target.checked)} type="checkbox" className="form-check-input"></input>
-                                            <label  className="form-check-label">Is Active</label>
-
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-12">
-                                        <div className="form-group">
+                                        <div className="form-group"><br></br>
                                            <button className="btn btn-success" type="submit">Save</button>
                                            <Link to="/" className="btn btn-danger">Back</Link>
                                         </div>

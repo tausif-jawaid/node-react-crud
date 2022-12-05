@@ -31,7 +31,7 @@ display:block;
 }
 .cardsize{
 
-width:820px;
+width:840px;
 
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -90,6 +90,7 @@ width:820px;
 
   border-radius: 4px;
 }
+
 .importBtn {
   float: right;
   background-color: #4CAF50; /* Green */
@@ -103,4 +104,53 @@ width:820px;
   cursor: pointer;
   padding: 5px;
   border-radius: 4px;
+}
+
+
+.paginationBttns {
+  width: 100%;
+  display:flex;
+  list-style: none;
+  justify-content: center;
+  margin: 1% 0;
+  color:white;
+
+
+}
+.btnsize{
+  width:20px;
+
+background-color: transparent;
+color:white;
+border:#282c34;
+ }
+.paginationBttns a {
+  border: 5px solid white;
+  border-style: double;
+  padding:2px 8px;
+  border-radius: 50px;
+  color:white;
+  background-color: black;
+  text-decoration: none;
+ 
+}
+.paginationBttns a:hover{
+  color:cyan;
+  background-color: rgb(87, 84, 120);
+}
+
+ 
+.navigationActive a {
+  color: white;
+  background-color: rgb(36, 127, 121);
+}
+ 
+.navigationDisabled a {
+  color: rgb(55, 53, 53);
+  background-color: white;
+}
+
+.navigationDisabled a:hover {
+  color: rgb(55, 53, 53);
+  background-color: white;
 }
