@@ -13,11 +13,12 @@ const EmpDetail = () => {
         }).then((resp) => {
           
                 empdatachange(resp);
-                
+              //comments updated   
         }).catch((err) => {
             console.log(err.message);
         })
     }, []);
+
 
     return (
         <div>
