@@ -1,39 +1,10 @@
 {
   "employee": [
     {
-      "name": "Tausif Jawaid",
-      "email": "tausifjawaid6@gmail.com",
-      "phone": "+919131015472",
-      "active": true,
-      "id": 11
-    },
-    {
       "name": "Puneet kumar",
       "email": "puneetkumar@email.com",
       "phone": "4535344",
-      "active": true,
-      "id": 12
-    },
-    {
-      "name": "Raza Abbas",
-      "email": "mrabbas925@gmail.com",
-      "phone": "7398263192",
-      "active": true,
-      "id": 13
-    },
-    {
-      "name": "Harry poter",
-      "email": "wings of fire",
-      "phone": "123456789",
-      "active": true,
-      "id": 14
-    },
-    {
-      "name": "Raza Abbas",
-      "email": "mrabbas925@gmail.com",
-      "phone": "7398263192",
-      "active": true,
-      "id": 15
+      "id": 18
     }
   ]
 }

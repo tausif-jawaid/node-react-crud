@@ -92,7 +92,7 @@ const EmpListing = () => {
             if (!empId.length == 0) {
                 if (window.confirm('Do you want to remove?')) {
                     const delFetch = empId.map(eleid => {
-                        return fetch('http://localhost:8001/api/workouts' + eleid, {
+                        return fetch('http://localhost:8001/api/workouts/' + eleid, {
                             method: 'DELETE'
                         });
                     });
