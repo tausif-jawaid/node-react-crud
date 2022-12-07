@@ -1,12 +1,6 @@
 {
   "employee": [
     {
-      "name": "Puneet kumar",
-      "email": "puneetkumar@email.com",
-      "phone": "4535344",
-      "id": 18
-    },
-    {
       "name": "Tausif Jawaid",
       "email": "tausifjawaid6@gmail.com",
       "phone": "+919131015472",
@@ -17,6 +11,12 @@
       "email": "ankit@email.com",
       "phone": "5345534",
       "id": 20
+    },
+    {
+      "name": "amar",
+      "email": "amar@email.com",
+      "phone": "5434666",
+      "id": 21
     }
   ]
 }
