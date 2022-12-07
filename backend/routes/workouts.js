@@ -4,6 +4,7 @@ const Workout = require('../models/workoutModel')
 
 const router = express.Router();
 
+// Tausif comment 
 // get all workouts
 router.get('/', getWorkouts)
 
